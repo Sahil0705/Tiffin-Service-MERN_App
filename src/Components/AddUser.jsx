@@ -36,7 +36,8 @@ const AddUser = () => {
     const addUserDetails = async() => {
         console.log(user);
         await addUser(user);
-        history.push('/all');
+        alert("User reg");
+        history.push('/Tiffin-Service-MERN_App/');
     }
 
     return (
