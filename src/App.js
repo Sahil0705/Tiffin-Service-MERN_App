@@ -50,19 +50,19 @@ const App = () => {
     <>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/AllUsers" component={AllUsers} />
-        <Route exact path="/Admin" component={Admin} />
-        <Route exact path="/Services" component={Service} />
-        <Route exact path="/Contact" component={Contact} />
-        <Route exact path="/About" component={About} />
-        <Route exact path="/all" component={AllUsers} />
-        <Route exact path="/add" component={AddUser} />
-        <Route exact path="/edit/:id" component={EditUser} />
-        <Route exact path="/Register" component={Register} />
-        <Route exact path="/Login" component={Login} />
-        <Route exact path="/Food_Catelogue" component={Food_Catelogue} />
-        <Route exact path="/Profile" component={Profile} />
+        <Route exact path="/Tiffin-Service-MERN_App/" component={Home} />
+        <Route exact path="/Tiffin-Service-MERN_App/AllUsers" component={AllUsers} />
+        <Route exact path="/Tiffin-Service-MERN_App/Admin" component={Admin} />
+        <Route exact path="/Tiffin-Service-MERN_App/Services" component={Service} />
+        <Route exact path="/Tiffin-Service-MERN_App/Contact" component={Contact} />
+        <Route exact path="/Tiffin-Service-MERN_App/About" component={About} />
+        <Route exact path="/Tiffin-Service-MERN_App/all" component={AllUsers} />
+        <Route exact path="/Tiffin-Service-MERN_App/add" component={AddUser} />
+        <Route exact path="/Tiffin-Service-MERN_App/edit/:id" component={EditUser} />
+        <Route exact path="/Tiffin-Service-MERN_App/Register" component={Register} />
+        <Route exact path="/Tiffin-Service-MERN_App/Login" component={Login} />
+        <Route exact path="/Tiffin-Service-MERN_App/Food_Catelogue" component={Food_Catelogue} />
+        <Route exact path="/Tiffin-Service-MERN_App/Profile" component={Profile} />
         <Route component={NotFound} />
         <Redirect to="/" />
       </Switch>
