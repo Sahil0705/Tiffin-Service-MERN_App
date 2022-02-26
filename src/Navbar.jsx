@@ -139,7 +139,7 @@ const Header = (props) => {
     if(person=='abc')
     {
       // alert("Correct Key, Click ok to Proceed to Admin Panel");
-      history.push("/AllUsers");
+      history.push("/Tiffin-Service-MERN_App/AllUsers");
     }
     else if(person!='abc' && person.length!=0)
     {
@@ -200,7 +200,7 @@ const Header = (props) => {
                     <MenuItem
                       onClick={() => setAnchor(null)}
                       component={Link}
-                      to="/"
+                      to="/Tiffin-Service-MERN_App/"
                     >
                       <ListItemIcon>
                         <HomeIcon style={{fontSize:'22px'}}/>
@@ -219,7 +219,7 @@ const Header = (props) => {
                     <MenuItem
                       onClick={() => setAnchor(null)}
                       component={Link}
-                      to="/Services"
+                      to="/Tiffin-Service-MERN_App/Services"
                     >
                       <ListItemIcon>
                         <PersonIcon style={{fontSize:'22px'}}/>
@@ -229,7 +229,7 @@ const Header = (props) => {
                     <MenuItem
                       onClick={() => setAnchor(null)}
                       component={Link}
-                      to="/Contact"
+                      to="/Tiffin-Service-MERN_App/Contact"
                     >
                       <ListItemIcon>
                         <BookmarksIcon style={{fontSize:'22px'}}/>
@@ -239,7 +239,7 @@ const Header = (props) => {
                     <MenuItem
                       onClick={() => setAnchor(null)}
                       component={Link}
-                      to="/About"
+                      to="/Tiffin-Service-MERN_App/About"
                     >
                       <ListItemIcon>
                         <BookmarksIcon style={{fontSize:'22px'}}/>
@@ -250,7 +250,7 @@ const Header = (props) => {
                       <MenuItem
                       onClick={() => setAnchor(null)}
                       component={Link}
-                      to="/Register"
+                      to="/Tiffin-Service-MERN_App/Register"
                     >
                       <ListItemIcon>
                         <BookmarksIcon style={{fontSize:'22px'}}/>
@@ -264,7 +264,7 @@ const Header = (props) => {
                   <Button
                     variant="text"
                     component={Link}
-                    to="/"
+                    to="/Tiffin-Service-MERN_App/"
                     color="default"
                   >
                     <HomeIcon  style={{fontSize:'22px', color:'white', marginLeft:'10px'}}/>&nbsp;&nbsp;
@@ -282,7 +282,7 @@ const Header = (props) => {
                   <Button
                     variant="text"
                     component={Link}
-                    to="/Services"
+                    to="/Tiffin-Service-MERN_App/Services"
                     color="default"
                   >
                     <PersonIcon  style={{fontSize:'22px', color:'white', marginLeft:'10px'}}/>&nbsp;&nbsp;
@@ -291,7 +291,7 @@ const Header = (props) => {
                   <Button
                     variant="text"
                     component={Link}
-                    to="/Contact"
+                    to="/Tiffin-Service-MERN_App/Contact"
                     color="default"
                   >
                     <BookmarksIcon  style={{fontSize:'20px', color:'white', marginLeft:'10px'}}/>&nbsp;&nbsp;
@@ -300,7 +300,7 @@ const Header = (props) => {
                   <Button
                     variant="text"
                     component={Link}
-                    to="/About"
+                    to="/Tiffin-Service-MERN_App/About"
                     color="default"
                   >
                     <BookmarksIcon  style={{fontSize:'20px', color:'white', marginLeft:'10px'}}/>&nbsp;&nbsp;
@@ -310,7 +310,7 @@ const Header = (props) => {
                       variant="text"
                       component={Link}
                       color="default"
-                      to="/Register"
+                      to="/Tiffin-Service-MERN_App/Register"
                     >
                       <BookmarksIcon  style={{fontSize:'20px', color:'white', marginLeft:'10px'}}/>&nbsp;&nbsp;
                       <h4 style={{fontSize:'15px', color:'white', fontWeight:'bold'}} id='menu_icon6' onMouseEnter={hover6} onMouseLeave={hoverout6}>Register</h4>
