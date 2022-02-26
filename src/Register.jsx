@@ -39,7 +39,7 @@ const AddUser = () => {
         console.log(user);
         await addUser(user);
         alert("Registered Successfully")
-        history.push('/login');
+        history.push('/Tiffin-Service-MERN_App/login');
     }
 
 

@@ -10,7 +10,7 @@ const Profile = () => {
         sessionStorage.removeItem("Food_Service_username_login");
         sessionStorage.removeItem("Food_Service_FirstName_login");
         sessionStorage.removeItem("Food_Service_LastName_login"); 
-        history.push("/");
+        history.push("/Tiffin-Service-MERN_App/");
         // alert("Bye");
     }
   return (

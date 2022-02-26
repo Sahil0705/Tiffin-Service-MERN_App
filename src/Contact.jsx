@@ -48,7 +48,7 @@ const Contact = () => {
     );
     console.log(data);
     await addContact(data);
-    history.push('/');
+    history.push('/Tiffin-Service-MERN_App/');
 }
 console.log("F ",data)
 if(sessionStorage.getItem("Food_Service_username_login")!=null && sessionStorage.getItem("Food_Service_FirstName_login")!=null){
