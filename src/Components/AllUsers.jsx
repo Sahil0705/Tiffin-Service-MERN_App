@@ -80,7 +80,7 @@ const AllUsers = () => {
                         <TableCell>{user.password}</TableCell>
                         <TableCell>{user.confirm_pwd}</TableCell>
                         <TableCell>
-                            <Button color="primary" variant="contained" style={{marginRight:10, fontSize:"15px"}} component={Link} to={`/edit/${user._id}`}>Edit</Button>
+                            <Button color="primary" variant="contained" style={{marginRight:10, fontSize:"15px"}} component={Link} to={`/Tiffin-Service-MERN_App/edit/${user._id}`}>Edit</Button>
                         </TableCell>
                         <TableCell>
                         <Button color="secondary" variant="contained" onClick={() => deleteUserData(user._id)} style={{fontSize:"15px"}}>Delete</Button> 
@@ -90,7 +90,7 @@ const AllUsers = () => {
             </TableBody>
         </Table>
         </div>
-        <Button color="primary" variant="contained" style={{marginLeft:"45%", marginRight:"45%", width:"10%", fontSize:"15px", marginBottom:"40px"}} component={Link} to={`/add`} id='add_user'>Add User</Button>
+        <Button color="primary" variant="contained" style={{marginLeft:"45%", marginRight:"45%", width:"10%", fontSize:"15px", marginBottom:"40px"}} component={Link} to={`/Tiffin-Service-MERN_App/add`} id='add_user'>Add User</Button>
         <br/><br/>
         </>
     )

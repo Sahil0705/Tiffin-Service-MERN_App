@@ -150,7 +150,7 @@ const AddUser = () => {
                 <button class="btn btn-outline-primary" type="button" style={{fontSize:"16px", height:"40px", width:"140px"}} onClick={addUserDetails}>
                   Submit form
                 </button><br/><br/>
-                <Button component={Link} to="/login">Login</Button>
+                <Button component={Link} to="/Tiffin-Service-MERN_App/login">Login</Button>
               </div>
             </form>
           </div>

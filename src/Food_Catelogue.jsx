@@ -13,7 +13,7 @@ const Food_Catelogue = () => {
         <tr>
         <td width="90%"><h1 align="left" style={{marginLeft:"2%", display:"inline"}}>Hello! <b>{LoggedInFirstname} {LoggedInLastname}</b></h1></td>
             <td width="5%" align='right'><Button type='button' color='primary' style={{fontSize:"18px", marginRight:"2px", backgroundColor:"purple", color:'white'}}>Cart</Button></td>
-            &nbsp;&nbsp;&nbsp;&nbsp;<td width="5%" align='right'><Button type='button' color='secondary' style={{fontSize:"18px", marginRight:"2px", backgroundColor:"blue", color:'white'}} component={Link} to="/Profile">Profile</Button></td>
+            &nbsp;&nbsp;&nbsp;&nbsp;<td width="5%" align='right'><Button type='button' color='secondary' style={{fontSize:"18px", marginRight:"2px", backgroundColor:"blue", color:'white'}} component={Link} to="/Tiffin-Service-MERN_App/Profile">Profile</Button></td>
         </tr>
     </table>
     </div>

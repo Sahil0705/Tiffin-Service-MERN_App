@@ -36,7 +36,7 @@ const Login = () => {
     {
         if(sessionStorage.getItem("Food_Service_username_login")!=null)
         {
-            history.push("/");
+            history.push("/Tiffin-Service-MERN_App/");
         }
         else if(sessionStorage.getItem("RemeberMe_username")!=null && sessionStorage.getItem("RemeberMe_pwd")!=null)
         {
@@ -44,7 +44,7 @@ const Login = () => {
             sessionStorage.setItem("Food_Service_FirstName_login", users[i].firstName);
             sessionStorage.setItem("Food_Service_LastName_login", users[i].lastName);
             logged_in = 1;
-            history.push("/");
+            history.push("/Tiffin-Service-MERN_App/");
         }
         else if(users.length!=0)
         {
@@ -59,7 +59,7 @@ const Login = () => {
                         sessionStorage.setItem("Food_Service_FirstName_login", users[i].firstName);
                         sessionStorage.setItem("Food_Service_LastName_login", users[i].lastName);
                         logged_in = 1;
-                        history.push("/");
+                        history.push("/Tiffin-Service-MERN_App/");
                     }
                     break;
                 }
