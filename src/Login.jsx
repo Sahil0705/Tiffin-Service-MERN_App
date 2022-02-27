@@ -40,19 +40,39 @@ const Login = () => {
         }
         else if(sessionStorage.getItem("RemeberMe_username")!=null && sessionStorage.getItem("RemeberMe_pwd")!=null)
         {
-            sessionStorage.setItem("Food_Service_username_login", users[i].emailId);
-            sessionStorage.setItem("Food_Service_FirstName_login", users[i].firstName);
-            sessionStorage.setItem("Food_Service_LastName_login", users[i].lastName);
-            logged_in = 1;
-            history.push("/Tiffin-Service-MERN_App/");
+            user_details.username = sessionStorage.getItem("RemeberMe_username");
+            user_details.password = sessionStorage.getItem("RemeberMe_pwd");
+            for(i =0; i<users.length; i++)
+            {
+                console.log("G ",users[i]," ",user_details);
+                if(users[i].emailId==user_details.username)
+                {
+                    console.log("G ",users[i]," ",user_details);
+                    if(users[i].password==user_details.password)
+                    {
+                        sessionStorage.setItem("Food_Service_username_login", user_details.username);
+                        sessionStorage.setItem("Food_Service_FirstName_login", users[i].firstName);
+                        sessionStorage.setItem("Food_Service_LastName_login", users[i].lastName);
+                        logged_in = 1;
+                        console.log(i);
+                        history.push("/Tiffin-Service-MERN_App/");
+                    }
+                    break;
+                }
+            }
+            if(i==users.length)
+            {
+                alert("Invalid Credential");
+            }
         }
         else if(users.length!=0)
         {
             for(i =0; i<users.length; i++)
             {
-                // console.log("G ",users[i]);
+                
                 if(users[i].emailId==user_details.username)
                 {
+                    //console.log("G ",users[i]," ",user_details);
                     if(users[i].password==user_details.password)
                     {
                         sessionStorage.setItem("Food_Service_username_login", user_details.username);
