@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tiffin-Service-MERN_App/static/css/main.071e9f18.css",
-    "main.js": "/Tiffin-Service-MERN_App/static/js/main.f3e27d69.js",
+    "main.js": "/Tiffin-Service-MERN_App/static/js/main.af8d49c3.js",
     "static/media/marketing.jpg": "/Tiffin-Service-MERN_App/static/media/marketing.f629aa392c4ff105f747.jpg",
     "static/media/app.jpeg": "/Tiffin-Service-MERN_App/static/media/app.8714f36598ad2ce812b5.jpeg",
     "static/media/android.jpeg": "/Tiffin-Service-MERN_App/static/media/android.ee1d95083516dda0d669.jpeg",
@@ -13,10 +13,10 @@
     "static/media/img2.svg": "/Tiffin-Service-MERN_App/static/media/img2.d12e2a271e618bd9bc130b61d3930482.svg",
     "index.html": "/Tiffin-Service-MERN_App/index.html",
     "main.071e9f18.css.map": "/Tiffin-Service-MERN_App/static/css/main.071e9f18.css.map",
-    "main.f3e27d69.js.map": "/Tiffin-Service-MERN_App/static/js/main.f3e27d69.js.map"
+    "main.af8d49c3.js.map": "/Tiffin-Service-MERN_App/static/js/main.af8d49c3.js.map"
   },
   "entrypoints": [
     "static/css/main.071e9f18.css",
-    "static/js/main.f3e27d69.js"
+    "static/js/main.af8d49c3.js"
   ]
 }
