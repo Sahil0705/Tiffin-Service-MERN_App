@@ -4,6 +4,7 @@ import "../food_menu.css"
 import Menu from "./Api_Menu";
 import MenuItems from './MenuItems';
 import Tabs from './Tabs';
+import Food_Catelogue from '../Food_Catelogue';
 
 const GalleryReact = () => {
 
@@ -157,7 +158,12 @@ const GalleryReact = () => {
 
     return (
         <>
-            <br/><br/><br/><br/>
+            <br/><br/>
+            {(sessionStorage.getItem("Food_Service_username_login") ? <>
+    <Food_Catelogue />
+    </>
+    :
+    null)}<br/><br/><br/>
             <h1 className="mt-5 text-center main-heading">Order the Food Items (You can filter based on your needs)</h1>
             <hr />
             <Tabs setItems={setItems} selectedBtn={selectedBtn}/>

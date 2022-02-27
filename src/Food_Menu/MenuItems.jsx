@@ -5,11 +5,7 @@ import Food_Catelogue from '../Food_Catelogue';
 const MenuItems = (props) => {
     return (
         <>
-            {(sessionStorage.getItem("Food_Service_username_login") ? <>
-    <Food_Catelogue />
-    </>
-    :
-    null)}<br/><br/>
+           <br/><br/>
       <div className="container-fluid mb-5">
         <div className="row">
           <div className="col-10 mx-auto">
