@@ -202,3 +202,12 @@ footer p {
         padding: 25px;   
         background-color: #eeeeee;  
     }   
+
+.NonVeg
+{
+  border: 2px solid #dd3c3c;
+}
+.Veg
+{
+  border: 2px solid green;
+}

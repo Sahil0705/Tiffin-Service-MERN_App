@@ -42,6 +42,7 @@ import Login from './Login';
 import Food_Catelogue from './Food_Catelogue';
 import Logout from './Logout';
 import Profile from './Profile';
+import ImageGallery from './Food_Menu/ImageGallery';
 
 const App = () => {
   console.log("fdfdfdfdf");
@@ -53,7 +54,6 @@ const App = () => {
         <Route exact path="/Tiffin-Service-MERN_App/" component={Home} />
         <Route exact path="/Tiffin-Service-MERN_App/AllUsers" component={AllUsers} />
         <Route exact path="/Tiffin-Service-MERN_App/Admin" component={Admin} />
-        <Route exact path="/Tiffin-Service-MERN_App/Services" component={Service} />
         <Route exact path="/Tiffin-Service-MERN_App/Contact" component={Contact} />
         <Route exact path="/Tiffin-Service-MERN_App/About" component={About} />
         <Route exact path="/Tiffin-Service-MERN_App/all" component={AllUsers} />
@@ -61,6 +61,7 @@ const App = () => {
         <Route exact path="/Tiffin-Service-MERN_App/edit/:id" component={EditUser} />
         <Route exact path="/Tiffin-Service-MERN_App/Register" component={Register} />
         <Route exact path="/Tiffin-Service-MERN_App/Login" component={Login} />
+        <Route exact path="/Tiffin-Service-MERN_App/Services" component={ImageGallery} />
         <Route exact path="/Tiffin-Service-MERN_App/Food_Catelogue" component={Food_Catelogue} />
         <Route exact path="/Tiffin-Service-MERN_App/Profile" component={Profile} />
         <Route component={NotFound} />
