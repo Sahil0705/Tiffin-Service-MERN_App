@@ -25,7 +25,7 @@ import NotFound from './Components/NotFound';
 
 // export default App;
 
-import React from "react";
+import React, { createContext, useEffect } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import Home from "./Home";
@@ -45,7 +45,8 @@ import Profile from './Profile';
 import ImageGallery from './Food_Menu/ImageGallery';
 
 const App = () => {
-  console.log("fdfdfdfdf");
+  
+  
   return (
     
     <>
@@ -61,7 +62,7 @@ const App = () => {
         <Route exact path="/Tiffin-Service-MERN_App/edit/:id" component={EditUser} />
         <Route exact path="/Tiffin-Service-MERN_App/Register" component={Register} />
         <Route exact path="/Tiffin-Service-MERN_App/Login" component={Login} />
-        <Route exact path="/Tiffin-Service-MERN_App/Services" component={ImageGallery} />
+        <Route exact path="/Tiffin-Service-MERN_App/Services" component={ImageGallery}/>
         <Route exact path="/Tiffin-Service-MERN_App/Food_Catelogue" component={Food_Catelogue} />
         <Route exact path="/Tiffin-Service-MERN_App/Profile" component={Profile} />
         <Route component={NotFound} />

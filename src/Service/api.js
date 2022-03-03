@@ -5,6 +5,8 @@ const usersUrl = 'https://mycorsproxy-help.herokuapp.com/https://food-service-sa
 //const usersUrl = 'users';
 const contactsUrl = 'https://mycorsproxy-help.herokuapp.com/https://food-service-sahil-api.herokuapp.com/contacts';
 
+const cartUrl = 'https://mycorsproxy-help.herokuapp.com/https://food-service-sahil-api.herokuapp.com/cart';
+
 export const getallUsers = async () => {
     const user_data = await axios.get(`${usersUrl}`);
     return user_data;
@@ -53,4 +55,29 @@ export const deleteContact = async (_id) => {
 export const editContact = async (_id, contact) => {
     console.log(contact);
     return await axios.patch(`${contactsUrl}/${_id}`, contact)
+}
+
+export const addCart = async (cart) => {
+    console.log("HI ",cart);
+    return await axios.post(`${cartUrl}`, cart);
+}
+
+export const getallitemsfromCartByEmail = async (emailId) => {
+    const user_data = await axios.get(`${cartUrl}allItemsByEmail?emailId=${emailId}`);
+    //console.log(user_data.data);
+    return user_data.data[0];
+}
+
+export const getanItemfromCart = async (_id, emailId, prodId) => {
+    const user_data = await axios.get(`${cartUrl}anItem?_id=${_id}&emailId=${emailId}&prodId=${prodId}`);
+    return user_data;
+}
+
+export const getCart = async () => {
+    const user_data = await axios.get(`${cartUrl}`);
+    return user_data;
+}
+
+export const deleteCart = async (_id,emailId,prodId) => {
+    return await axios.delete(`${cartUrl}?_id=${_id}&emailId=${emailId}&prodId=${prodId}`);
 }

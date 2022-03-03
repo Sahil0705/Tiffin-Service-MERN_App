@@ -5,6 +5,7 @@ import Menu from "./Api_Menu";
 import MenuItems from './MenuItems';
 import Tabs from './Tabs';
 import Food_Catelogue from '../Food_Catelogue';
+import { getCart } from '../Service/api';
 
 const GalleryReact = () => {
 
@@ -15,6 +16,17 @@ const GalleryReact = () => {
         category:""
     });
     
+    let items_from_cart = null;
+    let [cart, setCart] = useState([]);
+    useEffect(async()=>
+    {
+        items_from_cart = await getCart();
+        console.log(items_from_cart.data);
+        cart = items_from_cart.data;
+        setCart(cart);
+        //console.log(cart);
+    },[])
+
     let updatedItems = [];
     const updateFoodItemList = () => 
     {
@@ -168,7 +180,7 @@ const GalleryReact = () => {
             <hr />
             <Tabs setItems={setItems} selectedBtn={selectedBtn}/>
             <h1 className="mt-5 text-center main-heading">{state}</h1>
-            <MenuItems items={items}/>
+            <MenuItems items={items} cart={cart}/>
             <br/><br/><br/><br/>
         </>
     )

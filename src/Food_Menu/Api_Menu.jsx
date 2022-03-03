@@ -5,7 +5,8 @@ const Menu = [
        name:"Chicken Roll",
        type:"non_veg",
        category: "breakfast",
-       price: "120₹",
+       price: 120,
+       quantity:1,
        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
    },
  
@@ -15,7 +16,8 @@ const Menu = [
        name:"Paneer Sandwich",
        type:"veg",
        category: "breakfast",
-       price: "210₹",
+       price: 210,
+       quantity:1,
        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
    },
    {
@@ -24,7 +26,8 @@ const Menu = [
        name:"Dosa",
        type:"veg",
        category: "breakfast",
-       price: "130₹",
+       price: 130,
+       quantity:1,
        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
    },
     {
@@ -33,7 +36,8 @@ const Menu = [
        name:"Idli",
        type:"veg",
        category: "breakfast",
-       price: "150₹",
+       price: 150,
+       quantity:1,
        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
    },
      {
@@ -42,7 +46,8 @@ const Menu = [
        name:"Omlete",
        type:"non_veg",
        category: "breakfast",
-       price: "180₹",
+       price: 180,
+       quantity:1,
        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
    },
       {
@@ -51,7 +56,8 @@ const Menu = [
        name:"Paneer Butter Masala",
        type:"veg",
        category: "lunch",
-       price: "230₹",
+       price: 230,
+       quantity:1,
        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
    },
        {
@@ -60,7 +66,8 @@ const Menu = [
        name:"Butter Kulcha",
        type:"veg",
        category: "lunch",
-       price: "60₹",
+       price:60,
+       quantity:1,
        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
    },
        {
@@ -69,7 +76,8 @@ const Menu = [
        name:"veg Pulao",
        type:"veg",
        category: "lunch",
-       price: "160₹",
+       price: 160,
+       quantity:1,
        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
    },
        {
@@ -78,7 +86,8 @@ const Menu = [
        name:"Kaju Katri",
        type:"veg",
        category: "lunch",
-       price: "40₹",
+       price:40,
+       quantity:1,
        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
    },
    {
@@ -87,7 +96,8 @@ const Menu = [
     name:"veg Kofta",
     type:"veg",
     category: "dinner",
-    price: "90₹",
+    price:90,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -96,7 +106,8 @@ const Menu = [
     name:"Dum Aloo Kashmiri",
     type:"veg",
     category: "dinner",
-    price: "100₹",
+    price: 100,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -105,7 +116,8 @@ const Menu = [
     name:"veg Biryani",
     type:"veg",
     category: "dinner",
-    price: "110₹",
+    price: 110,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -114,7 +126,8 @@ const Menu = [
     name:"Gulab Jamun",
     type:"veg",
     category: "dinner",
-    price: "70₹",
+    price:70,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -123,7 +136,8 @@ const Menu = [
     name:"Chicken Butter Masala",
     type:"non_veg",
     category: "lunch",
-    price: "270₹",
+    price: 270,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -132,7 +146,8 @@ const Menu = [
     name:"Chicken Tandoori",
     type:"non_veg",
     category: "lunch",
-    price: "230₹",
+    price: 230,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -141,7 +156,8 @@ const Menu = [
     name:"Egg Paratha",
     type:"non_veg",
     category: "lunch",
-    price: "190₹",
+    price: 190,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -150,7 +166,8 @@ const Menu = [
     name:"Chicken Biryani",
     type:"non_veg",
     category: "lunch",
-    price: "310₹",
+    price: 310,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -159,7 +176,8 @@ const Menu = [
     name:"Fish Tikka",
     type:"non_veg",
     category: "dinner",
-    price: "250₹",
+    price: 250,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -168,7 +186,8 @@ const Menu = [
     name:"Mutton Kabab",
     type:"non_veg",
     category: "dinner",
-    price: "180₹",
+    price: 180,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -177,7 +196,8 @@ const Menu = [
     name:"Egg Curry",
     type:"non_veg",
     category: "dinner",
-    price: "190₹",
+    price: 190,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -186,7 +206,8 @@ const Menu = [
     name:"Chicken Pulao",
     type:"non_veg",
     category: "dinner",
-    price: "310₹",
+    price: 310,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -195,7 +216,8 @@ const Menu = [
     name:"Momo",
     type:"veg",
     category: "evening",
-    price: "20₹",
+    price:20,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -204,7 +226,8 @@ const Menu = [
     name:"Samosa",
     type:"veg",
     category: "evening",
-    price: "30₹",
+    price:30,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -213,7 +236,8 @@ const Menu = [
     name:"Maggi",
     type:"veg",
     category: "evening",
-    price: "30₹",
+    price:30,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -222,7 +246,8 @@ const Menu = [
     name:"Mutton Roll",
     type:"non_veg",
     category: "evening",
-    price: "100₹",
+    price: 100,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 },
 {
@@ -231,7 +256,8 @@ const Menu = [
     name:"Chicken Pizza",
     type:"non_veg",
     category: "evening",
-    price: "140₹",
+    price: 140,
+    quantity:1,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. '
 }
 ];
