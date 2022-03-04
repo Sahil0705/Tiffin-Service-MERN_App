@@ -14,7 +14,7 @@ const Home = () => {
     :
     null)}
       <Commom
-        name="Grow your business with"
+        name="Welcome to "
         imgsrc={web}
         visit="/service"
         btname="Get Started"

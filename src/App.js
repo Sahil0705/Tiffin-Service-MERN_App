@@ -43,6 +43,7 @@ import Food_Catelogue from './Food_Catelogue';
 import Logout from './Logout';
 import Profile from './Profile';
 import ImageGallery from './Food_Menu/ImageGallery';
+import Cart from "./Food_Cart/Cart";
 
 const App = () => {
   
@@ -64,6 +65,7 @@ const App = () => {
         <Route exact path="/Tiffin-Service-MERN_App/Login" component={Login} />
         <Route exact path="/Tiffin-Service-MERN_App/Services" component={ImageGallery}/>
         <Route exact path="/Tiffin-Service-MERN_App/Food_Catelogue" component={Food_Catelogue} />
+        <Route exact path="/Tiffin-Service-MERN_App/Cart" component={Cart} />
         <Route exact path="/Tiffin-Service-MERN_App/Profile" component={Profile} />
         <Route component={NotFound} />
         <Redirect to="/" />

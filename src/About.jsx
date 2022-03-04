@@ -13,7 +13,7 @@ const About = () => {
     :
     null)}
       <Commom
-        name="Welcome to About page"
+        name="Welcome to About Us"
         imgsrc={web}
         visit="/contact"
         btname="Contact Now"
